@@ -2,6 +2,6 @@
 
 Create Simple Poll App through Django Framework
 
-Pre-requisites:
-~ Set up python virtual environment
+Pre-requisites:<br/>
+~ Set up python virtual environment<br/>
 ~ Install and create Django project
