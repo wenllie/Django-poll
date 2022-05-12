@@ -39,16 +39,14 @@ body{
     color: white;
 }
 .btn {
-    display: flex;
-    padding: 1px 2px;
-    text-decoration: none;
     font-family: 'Poppins', sans-serif;
     font-size: 13px;
     color: white;
-    background: #6225E6;
+    background: #073763;
     transition: 1s;
-    box-shadow: 3px 3px 0 black;
+    box-shadow: 3px 3px 0 #FBC638;
     transform: skewX(-15deg);
+    text-align: center;
     width: 150px;
     margin-top: 20px !important;
 }
@@ -59,6 +57,7 @@ body{
 
 .btn:hover {
     transition: 0.5s;
-    box-shadow: 5px 5px 0 #FBC638;
-    color: aqua;
+    box-shadow: 5px 5px 0 #073763;
+    color: rgb(2, 55, 93);
+    background-color: #ffc628;
 }
