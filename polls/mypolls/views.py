@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import get_object_or_404, render
 from .models import Question, Choice
 
 # Create your views here.
@@ -14,7 +14,8 @@ def vote(request,pk):
         selection_option = options.get(id=inputvalue)
         selection_option.vote += 5
         selection_option.save()
-
+        
+    question = get_object_or_404(Question, d=pk)
     return render(request, 'vote.html', {'question':question, 'options': options })
 
 def result(request, pk):
